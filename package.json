@@ -1,0 +1,20 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "node ./bin/db init",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "koa": "^2.7.0",
+    "lodash": "^4.17.11",
+    "mysql2": "^1.6.5",
+    "yargs": "^13.2.4"
+  }
+}
